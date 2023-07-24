@@ -1,0 +1,18 @@
+.header {
+
+    &__manha {
+        background-image: linear-gradient(to right bottom,
+                        rgb($color-primary-dark-2, 0.20),
+                        rgb($color-primary-dark-2, 0.20)),
+                        url(../images/manha.jpg);
+        margin-bottom: -1.5rem;
+    }
+
+    &__noite {
+        background-image: linear-gradient(to right bottom,
+                        rgb($color-primary-dark-2, 0.20),
+                        rgb($color-primary-dark-2, 0.20)),
+                        url(../images/noite.jpg);
+        margin-bottom: -1.5rem;
+    }
+}

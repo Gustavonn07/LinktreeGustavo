@@ -1,3 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.header__manha {
+  background-image: linear-gradient(to right bottom, rgba(70, 96, 103, 0.2), rgba(70, 96, 103, 0.2)), url(../images/manha.jpg);
+  margin-bottom: -1.5rem;
+}
+.header__noite {
+  background-image: linear-gradient(to right bottom, rgba(70, 96, 103, 0.2), rgba(70, 96, 103, 0.2)), url(../images/noite.jpg);
+  margin-bottom: -1.5rem;
+}
+
+.main {
+  background-color: #466067;
+}
+.main__img {
+  background-color: #466067;
+  position: relative;
+  top: -4rem;
+}
 
 /*# sourceMappingURL=main.css.map */

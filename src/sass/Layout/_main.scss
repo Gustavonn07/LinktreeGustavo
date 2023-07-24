@@ -1,0 +1,9 @@
+.main {
+    background-color: $color-primary-dark-2;
+    
+    &__img {
+        background-color: $color-primary-dark-2;
+        position: relative;
+        top: -4rem;
+    }  
+}

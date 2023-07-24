@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+$color-primary-dark-1: #484450;
+$color-primary-dark-2: #466067;
+$color-primary: #459a96;
+$color-primary-light-1: #34baab;
+$color-primary-light-2: #c4c8c5;
