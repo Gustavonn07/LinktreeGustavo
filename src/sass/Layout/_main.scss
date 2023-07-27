@@ -10,6 +10,10 @@
             left: 50%;
             transform: translate(-50%);
         }
+
+        &__heading {
+            color: $color-white;
+        }
     
         &__item {
             letter-spacing: .1rem;
@@ -37,5 +41,43 @@
 }
 
 .body__noite {
+    background-color: $color-primary-dark-2;
 
+    .main {
+        background-color: $color-primary-dark-2;
+        
+        &__img {
+            background-color: $color-primary-dark-2;
+            top: -4rem;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        &__heading {
+            color: $color-grey;
+        }
+    
+        &__item {
+            letter-spacing: .1rem;
+            color: $color-grey;
+            transition: all .2s;
+    
+            &:hover,
+            &:active {
+                color: $color-primary-light-1;
+                animation: pulsar 2s infinite;
+                transition: all .2s;
+                
+                .main__icon {
+                    fill: $color-primary-light-1;
+                }
+            }
+        }
+    
+        &__icon {
+            fill: $color-grey;
+            height: 3rem;
+            width: 3rem;
+        }
+    }
 }

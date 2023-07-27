@@ -10,3 +10,16 @@
         }
     }
 }
+
+.body__noite {
+    
+    .footer {
+        background-color: $color-primary-dark-2;
+        color: $color-grey;
+        
+        &__paragrafo {
+            margin-top: -.5rem;
+            z-index: 100;
+        }
+    }
+}

@@ -22,14 +22,29 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.body__manha .header__manha {
-  background-image: linear-gradient(to right bottom, rgba(70, 96, 103, 0.01), rgba(70, 96, 103, 0.01)), url(../images/manha.jpg);
+.header {
   margin-bottom: -1.5rem;
 }
+.header__btn {
+  position: absolute;
+  transform: scale(1.5);
+  z-index: 100;
+  top: 2rem;
+  right: 2rem;
+}
 
-.body__noite .header__noite {
+.body__manha .header {
+  background-image: linear-gradient(to right bottom, rgba(70, 96, 103, 0.01), rgba(70, 96, 103, 0.01)), url(../images/manha.jpg);
+}
+.body__manha .header__btn {
+  fill: #fff;
+}
+
+.body__noite .header {
   background-image: linear-gradient(to right bottom, rgba(70, 96, 103, 0.05), rgba(70, 96, 103, 0.05)), url(../images/noite.jpg);
-  margin-bottom: -1.5rem;
+}
+.body__noite .header__btn {
+  fill: #ccc;
 }
 
 .body__manha {
@@ -43,6 +58,9 @@ body {
   top: -4rem;
   left: 50%;
   transform: translate(-50%);
+}
+.body__manha .main__heading {
+  color: #fff;
 }
 .body__manha .main__item {
   letter-spacing: 0.1rem;
@@ -63,11 +81,54 @@ body {
   width: 3rem;
 }
 
+.body__noite {
+  background-color: #466067;
+}
+.body__noite .main {
+  background-color: #466067;
+}
+.body__noite .main__img {
+  background-color: #466067;
+  top: -4rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+.body__noite .main__heading {
+  color: #ccc;
+}
+.body__noite .main__item {
+  letter-spacing: 0.1rem;
+  color: #ccc;
+  transition: all 0.2s;
+}
+.body__noite .main__item:hover, .body__noite .main__item:active {
+  color: #34baab;
+  animation: pulsar 2s infinite;
+  transition: all 0.2s;
+}
+.body__noite .main__item:hover .main__icon, .body__noite .main__item:active .main__icon {
+  fill: #34baab;
+}
+.body__noite .main__icon {
+  fill: #ccc;
+  height: 3rem;
+  width: 3rem;
+}
+
 .body__manha .footer {
   background-color: #459a96;
   color: #fff;
 }
 .body__manha .footer__paragrafo {
+  margin-top: -0.5rem;
+  z-index: 100;
+}
+
+.body__noite .footer {
+  background-color: #466067;
+  color: #ccc;
+}
+.body__noite .footer__paragrafo {
   margin-top: -0.5rem;
   z-index: 100;
 }
