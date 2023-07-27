@@ -1,0 +1,12 @@
+.body__manha {
+    
+    .footer {
+        background-color: $color-primary;
+        color: $color-white;
+        
+        &__paragrafo {
+            margin-top: -.5rem;
+            z-index: 100;
+        }
+    }
+}

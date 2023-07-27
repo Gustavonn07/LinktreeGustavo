@@ -1,9 +1,41 @@
-.main {
-    background-color: $color-primary-dark-2;
+.body__manha {
+    background-color: $color-primary;
     
-    &__img {
-        background-color: $color-primary-dark-2;
-        position: relative;
-        top: -4rem;
-    }  
+    .main {
+        background-color: $color-primary;
+        
+        &__img {
+            background-color: $color-primary;
+            top: -4rem;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    
+        &__item {
+            letter-spacing: .1rem;
+            color: $color-white;
+            transition: all .2s;
+    
+            &:hover,
+            &:active {
+                color: $color-primary-light-3;
+                animation: pulsar 2s infinite;
+                transition: all .2s;
+                
+                .main__icon {
+                    fill: $color-primary-light-3;
+                }
+            }
+        }
+    
+        &__icon {
+            fill: $color-white;
+            height: 3rem;
+            width: 3rem;
+        }
+    }
+}
+
+.body__noite {
+
 }
