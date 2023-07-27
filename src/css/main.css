@@ -1,3 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.body__manha .header__manha {
+  background-image: linear-gradient(to right bottom, rgba(70, 96, 103, 0.01), rgba(70, 96, 103, 0.01)), url(../images/manha.jpg);
+  margin-bottom: -1.5rem;
+}
+
+.body__noite .header__noite {
+  background-image: linear-gradient(to right bottom, rgba(70, 96, 103, 0.05), rgba(70, 96, 103, 0.05)), url(../images/noite.jpg);
+  margin-bottom: -1.5rem;
+}
+
+.body__manha {
+  background-color: #459a96;
+}
+.body__manha .main {
+  background-color: #459a96;
+}
+.body__manha .main__img {
+  background-color: #459a96;
+  top: -4rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+.body__manha .main__item {
+  letter-spacing: 0.1rem;
+  color: #fff;
+  transition: all 0.2s;
+}
+.body__manha .main__item:hover, .body__manha .main__item:active {
+  color: #46fbe6;
+  animation: pulsar 2s infinite;
+  transition: all 0.2s;
+}
+.body__manha .main__item:hover .main__icon, .body__manha .main__item:active .main__icon {
+  fill: #46fbe6;
+}
+.body__manha .main__icon {
+  fill: #fff;
+  height: 3rem;
+  width: 3rem;
+}
+
+.body__manha .footer {
+  background-color: #459a96;
+  color: #fff;
+}
+.body__manha .footer__paragrafo {
+  margin-top: -0.5rem;
+  z-index: 100;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: rotate(2deg) scale(1);
+  }
+  50% {
+    transform: rotate(2deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(2deg) scale(1);
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

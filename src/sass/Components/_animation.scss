@@ -1,0 +1,13 @@
+@keyframes pulsar {
+    0% {
+        transform: rotate(2deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(2deg) scale(1.2);
+    }
+
+    100% {
+        transform: rotate(2deg) scale(1);
+    }
+}

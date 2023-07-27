@@ -1,0 +1,23 @@
+.body__manha {
+    .header {
+        &__manha {
+            background-image: linear-gradient(to right bottom,
+                            rgb($color-primary-dark-2, 0.01),
+                            rgb($color-primary-dark-2, 0.01)),
+                            url(../images/manha.jpg);
+            margin-bottom: -1.5rem;
+        }
+    }
+}
+
+.body__noite {
+    .header {
+        &__noite {
+            background-image: linear-gradient(to right bottom,
+                            rgb($color-primary-dark-2, 0.05),
+                            rgb($color-primary-dark-2, 0.05)),
+                            url(../images/noite.jpg);
+            margin-bottom: -1.5rem;
+        }
+    }
+}

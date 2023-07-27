@@ -7,7 +7,30 @@
     <link rel="stylesheet" href="src/css/main.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1 class="oi italic text-red-600">Oiii</h1>
+<body class="body__manha w-full h-screen">
+        <header class="header header__manha h-1/5 bg-center bg-cover">
+            <button></button>
+
+        </header>
+
+        <main class="main w-full h-4/5 rounded-t-3xl flex justify-center relative">
+            <img class="main__img w-36 h-36 rounded-full absolute p-2 scale-110 shadow-xl" src="src/images/Gustavo.jpg" alt="Imagem do Gustavo">
+
+            <h1 class="main__heading mt-32 text-4xl text-white">Minhas redes sociais:</h1>
+
+            <ul class="main__list text-center text-4xl absolute top-56 flex flex-col gap-12">
+                <li class="main__item flex gap-5 ml-6 items-center"><box-icon class="main__icon" type='logo' name='github'></box-icon> <a href="#">Github</a></li>
+
+                <li class="main__item flex gap-5 ml-6 items-center"><box-icon class="main__icon" name='linkedin' type='logo' ></box-icon> <a href="#">Linkedin</a></li>
+
+                <li class="main__item flex gap-5 ml-6 items-center"><box-icon class="main__icon" name='instagram' type='logo'></box-icon> <a href="#">Instagram</a></li>
+            </ul>
+        </main>
+        
+        <footer class="footer w-full flex justify-center">
+            <p class="footer__paragrafo text-lg">&copy; Copyright 2023 por Gustavo Nepomuceno.</p>
+        </footer>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 </html>
