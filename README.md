@@ -25,7 +25,7 @@ Nesse repositório irei guardar meus códigos do Linktree que criei para salvar 
   <tr align='center'>
        <td align='center'> 
          
-![image](https://github.com/Gustavonn07/LinktreeGustavo/assets/84361085/737cf7a1-3324-4800-a325-7ef635ed887b)
+![image](https://github.com/Gustavonn07/LinktreeGustavo/assets/84361085/a6c032a8-ee63-40c0-bb2e-de8dac21d615)
 
          
   </tr>
