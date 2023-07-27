@@ -1,13 +1,13 @@
 .header {
     margin-bottom: -1.5rem;
 
-    &__btn {
+    &__icon{
         position: absolute;
-        transform: scale(1.5);
-        
+        transform: scale(1.4);
         z-index: 100;
-        top: 2rem;
-        right: 2rem;
+        top: 10%;
+        right: 5%;
+        transition: all .2s;
     }
 }
 
@@ -19,8 +19,17 @@
                         rgb($color-primary-dark-2, 0.01)),
                         url(../images/manha.jpg);
 
-        &__btn {
+        &__icon {
             fill: $color-white;
+
+            &:hover {
+                fill: $color-primary-light-3;
+                transform: scale(1.8);
+            }
+            
+            &:active {
+                transform: scale(1.4);
+            }
         }
     }
 }
@@ -33,8 +42,17 @@
                         rgb($color-primary-dark-2, 0.05)),
                         url(../images/noite.jpg);
 
-        &__btn {
+        &__icon {
             fill: $color-grey;
+
+            &:hover {
+                fill: $color-primary-light-1;
+                transform: scale(1.8);
+            }
+
+            &:active {
+                transform: scale(1.4);
+            }
         }
     }
 }

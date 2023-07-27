@@ -25,26 +25,41 @@ body {
 .header {
   margin-bottom: -1.5rem;
 }
-.header__btn {
+.header__icon {
   position: absolute;
-  transform: scale(1.5);
+  transform: scale(1.4);
   z-index: 100;
-  top: 2rem;
-  right: 2rem;
+  top: 10%;
+  right: 5%;
+  transition: all 0.2s;
 }
 
 .body__manha .header {
   background-image: linear-gradient(to right bottom, rgba(70, 96, 103, 0.01), rgba(70, 96, 103, 0.01)), url(../images/manha.jpg);
 }
-.body__manha .header__btn {
+.body__manha .header__icon {
   fill: #fff;
+}
+.body__manha .header__icon:hover {
+  fill: #46fbe6;
+  transform: scale(1.8);
+}
+.body__manha .header__icon:active {
+  transform: scale(1.4);
 }
 
 .body__noite .header {
   background-image: linear-gradient(to right bottom, rgba(70, 96, 103, 0.05), rgba(70, 96, 103, 0.05)), url(../images/noite.jpg);
 }
-.body__noite .header__btn {
+.body__noite .header__icon {
   fill: #ccc;
+}
+.body__noite .header__icon:hover {
+  fill: #34baab;
+  transform: scale(1.8);
+}
+.body__noite .header__icon:active {
+  transform: scale(1.4);
 }
 
 .body__manha {
