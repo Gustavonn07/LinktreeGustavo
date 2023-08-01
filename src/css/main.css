@@ -133,19 +133,25 @@ body {
 .body__manha .footer {
   background-color: #459a96;
   color: #fff;
+  position: relative;
+  height: 2%;
 }
 .body__manha .footer__paragrafo {
-  margin-top: -0.5rem;
   z-index: 100;
+  position: absolute;
+  top: -2rem;
 }
 
 .body__noite .footer {
   background-color: #466067;
   color: #ccc;
+  position: relative;
+  height: 2%;
 }
 .body__noite .footer__paragrafo {
-  margin-top: -0.5rem;
   z-index: 100;
+  position: absolute;
+  top: -2rem;
 }
 
 @keyframes pulsar {

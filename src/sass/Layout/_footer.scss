@@ -3,10 +3,13 @@
     .footer {
         background-color: $color-primary;
         color: $color-white;
+        position: relative;
+        height: 2%;
         
         &__paragrafo {
-            margin-top: -.5rem;
             z-index: 100;
+            position: absolute;
+            top: -2rem;
         }
     }
 }
@@ -16,10 +19,13 @@
     .footer {
         background-color: $color-primary-dark-2;
         color: $color-grey;
+        position: relative;
+        height: 2%;
         
         &__paragrafo {
-            margin-top: -.5rem;
             z-index: 100;
+            position: absolute;
+            top: -2rem;
         }
     }
 }
