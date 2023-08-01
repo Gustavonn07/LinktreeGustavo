@@ -1,4 +1,4 @@
-<h1 align='center'>LinktreeGustavo (v1.0.3)</h1>
+<h1 align='center'>LinktreeGustavo (v1.0.4)</h1>
 Nesse repositório irei guardar meus códigos do Linktree que criei para salvar links das minhas redes sociais / portifólio
 
 ### Link: <a href="https://linktree-gustavo.vercel.app/" target="_blank" style="text-decoration: none; color: cyan;">Ir para o Linktree</a>
@@ -40,3 +40,4 @@ Nesse repositório irei guardar meus códigos do Linktree que criei para salvar 
 - v1.0.1: Corrigi o footer deixando mais estetico.
 - v1.0.2: Corrigi o header deixando ele ocupando mais espaço (Aproveitei e corrigi as dimensões).
 - v1.0.3: Alterei as animações.
+- v1.0.4: Ajustei a tipografia / responsividade.
