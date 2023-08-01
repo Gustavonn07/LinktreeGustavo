@@ -3,10 +3,14 @@
     
     .main {
         background-color: $color-primary;
+        height: 71vh;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        margin-top: -5rem;
         
         &__img {
             background-color: $color-primary;
-            top: -4rem;
+            top: -5rem;
             left: 50%;
             transform: translate(-50%);
         }
@@ -45,10 +49,14 @@
 
     .main {
         background-color: $color-primary-dark-2;
+        height: 71vh;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        margin-top: -5rem;
         
         &__img {
             background-color: $color-primary-dark-2;
-            top: -4rem;
+            top: -5rem;
             left: 50%;
             transform: translate(-50%);
         }
