@@ -32,9 +32,13 @@ Nesse repositório irei guardar meus códigos do Linktree que criei para salvar 
   </tr>
 </table>
 
+<hr>
+
 ## Objetivos futuros:
 - Implementar React.
 - Implementar Portifólio.
+
+<hr>
 
 ## Atualizações:
 - v1.0.1: Corrigi o footer deixando mais estetico.
