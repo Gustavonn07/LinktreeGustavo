@@ -36,6 +36,7 @@ Nesse repositório irei guardar meus códigos do Linktree que criei para salvar 
 
 ## Objetivos futuros:
 - Implementar React.
+- Implementar Typescript.
 - Implementar Portifólio.
 
 <hr>
