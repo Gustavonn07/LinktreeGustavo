@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Botoes = () => {
+const Titulo = () => {
 
     return (
         <>
@@ -9,4 +9,4 @@ const Botoes = () => {
     );
 };
 
-export default Botoes;
+export default Titulo;
