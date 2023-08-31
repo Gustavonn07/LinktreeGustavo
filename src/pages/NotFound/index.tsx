@@ -1,6 +1,6 @@
 
 
-const Dark = () => {
+const NotFound = () => {
 
     return (
         <>
@@ -9,4 +9,4 @@ const Dark = () => {
     );
 }
 
-export default Dark;
+export default NotFound;
