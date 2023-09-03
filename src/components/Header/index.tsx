@@ -23,8 +23,7 @@ const HeaderContainer = styled.header`
     width: 100%;
     height: 30vh;
     position: relative;
-
-    background-color: #a9a9a920;
+    z-index: 100;
 `
 
 const Imagem = styled.img`
@@ -37,6 +36,7 @@ const Imagem = styled.img`
     box-shadow: 0 1rem 1.5rem #00000060;
     border: .5rem solid #656565e1;
     transform: translateX(50%);
+    z-index: 100;
 `
 
 export default Header;

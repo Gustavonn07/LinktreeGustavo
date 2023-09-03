@@ -13,7 +13,11 @@ const Ways = () => {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<PageLayout />}>
-                            <Route index element={<Light />} />
+                            <Route index element={
+                                <Light>
+                                    
+                                </Light>
+                            } />
                             <Route path="/dark" element={<Dark />} />
                         </Route>
                         <Route path="*" element={<NotFound />}/>
