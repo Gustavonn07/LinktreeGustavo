@@ -4,7 +4,7 @@ const Dark = () => {
 
     return (
         <>
-        
+            <h1>Dark</h1>
         </>
     );
 }
