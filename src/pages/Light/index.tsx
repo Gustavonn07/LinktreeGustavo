@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import { ReactNode } from "react";
+import LightMode from "../../components/Lightmode";
 
 type LightProps = {
     children: ReactNode
@@ -10,13 +11,14 @@ const Light = ({ children }: LightProps) => {
     return (
         <>
             <Fundo>
+                <LightMode />
                 {children}
             </Fundo>
         </>
     );
 }
 
-const Fundo = styled.body`
+const Fundo = styled.section`
     position: relative;
     z-index: 1;
     background-image:
