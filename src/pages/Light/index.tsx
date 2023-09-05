@@ -10,9 +10,11 @@ const Light = ({ children }: LightProps) => {
 
     return (
         <>
+            <LightMode />
             <Fundo>
-                <LightMode />
-                {children}
+                <Container>
+                    {children}
+                </Container>
             </Fundo>
         </>
     );
@@ -30,6 +32,20 @@ const Fundo = styled.section`
     width: 100%;
     height: 142vh;
     top: -72vh;
+`
+
+const Container = styled.div`
+    position: absolute;
+    z-index: 110;
+    /* Controla a altura do inicio dos botões */
+    top: 55rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 `
 
 export default Light;
