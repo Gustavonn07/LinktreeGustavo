@@ -38,7 +38,7 @@ const Container = styled.div`
     position: absolute;
     z-index: 110;
     /* Controla a altura do inicio dos botões */
-    top: 55rem;
+    top: 58rem;
     width: 100%;
 
     display: flex;
