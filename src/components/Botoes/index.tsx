@@ -9,16 +9,14 @@ const Botoes = ({ texto, link }: PropsBotoes) => {
 
     return (
         <>
-            <BTN>
-                <BTN__Link href={link}>
-                    {texto}
-                </BTN__Link>
+            <BTN href={link}>
+                {texto}
             </BTN>
         </>
     );
 };
 
-const BTN = styled.button`
+const BTN = styled.a`
     min-width: 50vw;
     padding: .8rem;
     height: 3.5rem;
@@ -27,6 +25,9 @@ const BTN = styled.button`
     cursor: pointer;
     box-shadow: 0 .6rem 1.2rem #00000010;
     transition: all .2s;
+    text-align: center;
+    color: #434343;
+    font-size: 1.6rem;
 
     &:hover,
     &:focus {
@@ -38,11 +39,6 @@ const BTN = styled.button`
         box-shadow: 0 .8rem 1.4rem #00000030;
         transform: scale(1.01) translateY(-1px);
     }
-`
-
-const BTN__Link = styled.a`
-    color: #434343;
-    font-size: 1.6rem;
 `
 
 export default Botoes;
