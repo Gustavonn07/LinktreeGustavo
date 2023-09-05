@@ -13,7 +13,7 @@ const Ways = () => {
             <Suspense>
                 <BrowserRouter>
                     <Routes>
-                        <Route path="https://linktree-gustavo.vercel.app/" element={<PageLayout />}>
+                        <Route path="/" element={<PageLayout />}>
                             <Route index element={
                                 <Light>
                                     <Botoes
@@ -31,7 +31,7 @@ const Ways = () => {
                                 </Light>
                             } />
                             
-                            <Route path="https://linktree-gustavo.vercel.app/dark" element={
+                            <Route path="/dark" element={
                                 <Dark>
                                     <Botoes
                                      texto="Github"
@@ -53,7 +53,7 @@ const Ways = () => {
                             <NotFound>
                                 <Botoes
                                      texto="Voltar para a tela inicial"
-                                     link="https://linktree-gustavo.vercel.app/"
+                                     link="/"
                                     />  
                             </NotFound>
                         }/>
