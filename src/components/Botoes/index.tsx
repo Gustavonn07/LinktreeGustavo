@@ -19,7 +19,8 @@ const Botoes = ({ texto, link }: PropsBotoes) => {
 };
 
 const BTN = styled.button`
-    width: 50vw;
+    min-width: 50vw;
+    padding: .8rem;
     height: 3.5rem;
     border-radius: .2rem;
     background-color: #d2d2d4;

@@ -48,7 +48,15 @@ const Ways = () => {
                                 </Dark>
                             } />
                         </Route>
-                        <Route path="*" element={<NotFound />}/>
+
+                        <Route path="*" element={
+                            <NotFound>
+                                <Botoes
+                                     texto="Voltar para a tela inicial"
+                                     link="/"
+                                    />  
+                            </NotFound>
+                        }/>
                     </Routes>
                 </BrowserRouter>
             </Suspense>
