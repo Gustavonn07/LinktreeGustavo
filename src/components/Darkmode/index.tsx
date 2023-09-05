@@ -1,0 +1,34 @@
+import { styled } from "styled-components";
+import { Moon } from "@phosphor-icons/react";
+
+const Darkmode = () => {
+
+    return (
+        <>
+            <BtnDark href="/">
+                <Moon alt="Uma svg de uma lua" size={36}/>
+            </BtnDark>
+        </>
+    );
+};
+
+const BtnDark = styled.a`
+    position: absolute;
+    z-index: 100;
+    top: .5rem;
+    right: .5rem;
+    color: #cecece;
+
+    &:hover,
+    &:focus {
+        transform: scale(1.02);
+        filter: drop-shadow(0 1rem 1.5rem #00000060);
+    }
+    
+    &:active {
+        transform: scale(1.01);
+        filter: drop-shadow(0 .8rem 1.2rem #00000050);
+    }
+`
+
+export default Darkmode;

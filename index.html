@@ -1,38 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links Gustavo</title>
-    <link rel="stylesheet" href="src/css/main.css">
-    <link rel="shortcut icon" href="src/images/icon.ico" type="image/x-icon">
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body id="body" class="body__manha w-full sm:w-1/2 sm:bg-teal-800 sm:m-auto h-screen">
-        <header class="header bg-center bg-cover relative">
-            <button class="header__btn"><box-icon class="header__icon" name='sun' type='solid' ></box-icon></button>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="public/images/icon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linktree Gustavo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+      }
 
-        </header>
-
-        <main class="main w-full flex justify-center relative">
-            <img class="main__img w-36 h-36 sm:w-40 sm:h-40 rounded-full absolute p-2 scale-110 shadow-xl" src="src/images/Gustavo.jpg" alt="Imagem do Gustavo">
-
-            <h1 class="main__heading mt-32 text-3xl sm:text-5xl">Minhas redes sociais:</h1>
-
-            <ul class="main__list text-center text-2xl sm:text-3xl absolute top-56 flex flex-col gap-12">
-                <li class="main__item flex gap-5 ml-6 items-center"><box-icon class="main__icon" type='logo' name='github'></box-icon> <a href="https://github.com/Gustavonn07">Github</a></li>
-
-                <li class="main__item flex gap-5 ml-6 items-center"><box-icon class="main__icon" name='linkedin' type='logo' ></box-icon> <a href="https://www.linkedin.com/in/gustavo-nepomuceno/">Linkedin</a></li>
-
-                <li class="main__item flex gap-5 ml-6 items-center"><box-icon class="main__icon" name='instagram' type='logo'></box-icon> <a href="https://www.instagram.com/_gustavonep/">Instagram</a></li>
-            </ul>
-        </main>
-        
-        <footer class="footer w-full flex justify-center items-end">
-            <p class="footer__paragrafo text-sm sm:text-lg">&copy; Copyright 2023 por Gustavo Nepomuceno.</p>
-        </footer>
-
-    <script src="src/javascript/darkmode.js"></script>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-</body>
+      html {
+        font-size: 62.5%;
+        max-height: 100vh;
+        overflow: hidden;
+        font-family: 'Lato', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

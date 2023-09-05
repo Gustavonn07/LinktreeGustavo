@@ -1,0 +1,48 @@
+import { styled } from "styled-components"
+
+type PropsBotoes = {
+    texto: string,
+    link: string
+}
+
+const Botoes = ({ texto, link }: PropsBotoes) => {
+
+    return (
+        <>
+            <BTN>
+                <BTN__Link href={link}>
+                    {texto}
+                </BTN__Link>
+            </BTN>
+        </>
+    );
+};
+
+const BTN = styled.button`
+    min-width: 50vw;
+    padding: .8rem;
+    height: 3.5rem;
+    border-radius: .2rem;
+    background-color: #d2d2d4;
+    cursor: pointer;
+    box-shadow: 0 .6rem 1.2rem #00000010;
+    transition: all .2s;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 1rem 1.5rem #00000050;
+        transform: scale(1.02) translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 .8rem 1.4rem #00000030;
+        transform: scale(1.01) translateY(-1px);
+    }
+`
+
+const BTN__Link = styled.a`
+    color: #434343;
+    font-size: 1.6rem;
+`
+
+export default Botoes;
