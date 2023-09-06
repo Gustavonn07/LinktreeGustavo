@@ -22,18 +22,6 @@ Nesse repositório irei guardar meus códigos do Linktree que criei para salvar 
 
 <hr>
 
-<table align='center'>
-  <tr align='center'>
-       <td align='center'> 
-         
-![image](https://github.com/Gustavonn07/LinktreeGustavo/assets/84361085/a6c032a8-ee63-40c0-bb2e-de8dac21d615)
-
-         
-  </tr>
-</table>
-
-<hr>
-
 ## Objetivos futuros:
 - Implementar Nextjs
 
