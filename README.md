@@ -1,4 +1,4 @@
-<h1 align='center'>LinktreeGustavo (v2.0.0)</h1>
+<h1 align='center'>LinktreeGustavo (v2.1.2)</h1>
 Nesse repositório irei guardar meus códigos do Linktree que criei para salvar links das minhas redes sociais / portifólio
 
 ### Link: <a href="https://linktree-gustavo.vercel.app/" target="_blank" style="text-decoration: none; color: cyan;">Ir para o Linktree</a>
@@ -22,18 +22,6 @@ Nesse repositório irei guardar meus códigos do Linktree que criei para salvar 
 
 <hr>
 
-<table align='center'>
-  <tr align='center'>
-       <td align='center'> 
-         
-![image](https://github.com/Gustavonn07/LinktreeGustavo/assets/84361085/a6c032a8-ee63-40c0-bb2e-de8dac21d615)
-
-         
-  </tr>
-</table>
-
-<hr>
-
 ## Objetivos futuros:
 - Implementar Nextjs
 
@@ -45,3 +33,7 @@ Nesse repositório irei guardar meus códigos do Linktree que criei para salvar 
 - v1.0.3: Alterei as animações.
 - v1.0.4: Ajustei a tipografia / responsividade.
 - v2.0.0: Remodelei o linktree em react, melhorando a performance.
+- v2.0.1: Ajustei os botões.
+- v2.1.0: Corrigido erro 404 / adicionado modo noturno.
+- v2.1.1: Ajustei os botões.
+- v2.1.2: Ajustei a área interativa dos botões.

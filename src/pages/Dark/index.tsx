@@ -37,8 +37,7 @@ const Fundo = styled.section`
 const Container = styled.div`
     position: absolute;
     z-index: 110;
-    /* Controla a altura do inicio dos botões */
-    top: 58rem;
+    top: 80vh;
     width: 100%;
 
     display: flex;
